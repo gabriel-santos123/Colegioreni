@@ -3,31 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colégio Reni</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <title>Futebol</title>
 
-<hr>
-<h1><p><i>COLÉGIO ESTADUAL PROFª RENI CORREIA GAMPER</i></p></h1>
-    <h1><p><i>Rua 1o de Maio, nº 100. Manoel Ribas - Paraná - Fone: (43) 3435-1332 - (43) 3435-2519</i></p>
-    <p><i>CURSO TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS</i></p>
-    <hr>
-    </h1>
-    <h2><p>Em 1940 - Criação da primeira Instituição Escolar denominada: Escola Isolada de Campina Alta.</p>
-        <p>Em 1946 - A partir deste ano a Escola passou a denominar-se: Escola Isolada da Colônia Manoel Ribas.</p>
-        <p>Em 1947 - Passou a denominar-se: Escola Isolada da Vila Manoel Ribas. Em 1958 - Ocorreu nova mudança e então passou para a denominação de: <u>GRUPO ESCOLAR "PROFESSORA RENI CORREIA GAMPER"</u> ; em homenagem a primeira professora contratada em 1940.</p>
-        <p>Em 1981 - O Grupo Escolar passou a denominar-se: Escola Estadual "Profª Reni Correia Gamper" - Ensino de 1º Grau.</p>
-        <p>Em 1983 - Autorização para funcionamento do Ensino de 2º grau, que funcionava no Colégio Costa e Silva, que era mantido pela Prefeitura Municipal. Passou a denominar-se <u>COLÉGIO ESTADUAL PROFESSORA RENI CORREIA GAMPER - ENSINO DE 1º e 2º GRAU</u>, ofertando os Cursos: Magistério e Técnico em Contabilidade.</p>
-        <p>Em 1993 - Com a Municipalização do Ensino de 1ª à 4ª séries do Ensino Fundamental, que passou a ser ofertado pela Escola Municipal Renato Siloto - Ensino Fundamental, o Colégio passou a denominar-se Colégio Est. Profª Reni Correia Gamper - Ensino de 2º Grau. Neste ano foi implantado o Curso de Educação Geral - Preparação Universal.</p>
-        </h2>
-        <hr>
-        <h2>Colégio Estadual Profª Reni Correia Gamper.<p>
-            <p>Rua Primeiro de Maio nº 454.<p>
-            <p>Manoel Ribas - Paraná.<p>
-            </h2>
-            <hr>
-            <img src="download (4).jfif" alt="">
-<body>
     
+    <!-- Style.css -->
+    <style>
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+li{
+  text-align: left;
+  font-size: 20px;
+  color: white;
+}
+
+.site-header {
+  background-color: #333;
+  color: #000000;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 50px; 
+}
+
+.main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main-nav ul li {
+  margin-right: 20px;
+}
+
+.main-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.main-nav ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Salve aqui */ 
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(img/Img-fut1.jpg);
+    background-size: cover;
+    background-position: center; /* Centraliza a imagem no elemento */
+    height: 100vh; /* 100% da altura da viewport */
+    display: flex;
+    flex-direction: column;
+}
+    
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 100vh; 
+}
+    
+.imgicone {
+    max-width: 10%; 
+    max-height: 10%; 
+    width: auto; 
+    height: auto; 
+    margin-top: 20px; 
+}
+
+.asd{
+    font-size: 90px;
+}
+p{
+
+}
+footer{
+  width: 100%;
+  color: white;
+  background-color: #000000;
+  line-height: 1.5;
+}
+footer h2{
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+}
+footer ul{
+  margin-bottom: 2em;
+}
+    </style>
+    <!-- style.css -->
+
+</head>
+<body>
+<header class="site-header">
+        <div class="logo">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="Historia.html">História</a></li>
+                <li><a href="#medalhas">Medalhas</a></li>
+                <li><a href="https://olympics.com/pt/paris-2024/esportes/futebol">Saiba Mais</a></li>
+            </ul>
+        </nav class="main-nav">
+    </header>
+
+<div class="container">
+    <img src="/img/Fut-icon.png" alt="Icone Das Olimpiadas" class="imgicone">
+</div>
+     
+    <p> O futebol olímpico é uma competição de futebol realizada durante os Jogos Olímpicos, que ocorre a cada quatro anos. Diferente do futebol em outras competições, como a Copa do Mundo, o torneio olímpico tem algumas peculiaridades:
+
+Categorias de Idade: Para os Jogos Olímpicos de Verão, o futebol masculino é restrito a jogadores com menos de 23 anos, com a possibilidade de incluir até três jogadores acima dessa faixa etária, conhecidos como "jogadores experientes" ou "jogadores acima da idade". Isso foi introduzido para dar mais ênfase ao desenvolvimento de jovens talentos.
+
+Futebol Feminino: No futebol feminino olímpico, não há restrições de idade. As equipes podem contar com qualquer jogadora, o que faz do torneio um importante palco para as melhores atletas do mundo.
+
+História: O futebol foi incluído nos Jogos Olímpicos desde a primeira edição dos Jogos modernos em 1896, mas o torneio masculino olímpico foi oficializado apenas em 1900. No entanto, o futebol foi removido da programação até 1904. O torneio feminino foi adicionado mais recentemente, em 1996.
+
+Importância: Embora o futebol olímpico não tenha o mesmo prestígio que a Copa do Mundo da FIFA, ele ainda é uma competição importante que proporciona visibilidade e oportunidade para jogadores jovens e para a promoção do esporte em nível global.
+
+Regulamentação: As regras do futebol olímpico seguem as mesmas do futebol internacional, com algumas adaptações para se adequar ao formato da competição.
+
+O torneio olímpico pode ser um trampolim significativo para jogadores e jogadoras, oferecendo uma chance de brilhar no cenário internacional e muitas vezes atuando como uma vitrine para o desenvolvimento de futuras estrelas do esporte.</p>
+
+<footer>
+<h2>Olimpíadas<i>Tec</i></h2>
+<ul>
+<li><b> Deseenvolvido por: </b> Gabriel Fogaça</li>
+<li><b> Fone: </b> (43)4 4002-8922</li>
+<li><b> Email: </b> Gabriel@escola.pr.gov.br</li>
+</ul>
+</footer>
 </body>
 </html>
